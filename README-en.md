@@ -14,9 +14,8 @@ nasm -f bin ESTLIPP.ASM -o ESTLIPP.COM
 
 ## Functions
 
-- Kasutab NASM 16-baiti x86 programmi
-- VGA graphics (mode 13H)
 - Uses NASM 16-bit x86 program
+- VGA graphics (mode 13H)
 - Draws three colors of Estonian flag (blue-black-white)
 - Only 50 bytes file size reduction
 
