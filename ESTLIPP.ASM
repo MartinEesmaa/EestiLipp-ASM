@@ -1,8 +1,6 @@
-; Eesti lipp (DOS operatsioonsüsteem)
+; Eesti lipp V1.00 (DOS operatsioonsüsteem)
 ; Kood tehtud poolt Martin Eesmaa (12.07.2026)
 ; Lähtekood loaga: https://github.com/MartinEesmaa/EestiLipp-ASM (MIT)
-
-org 100h
 
 %define WIDTH   320
 %define CUT_HEIGHT  (200 / 3)
