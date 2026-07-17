@@ -3,7 +3,7 @@
 ; Lähtekood loaga: https://github.com/MartinEesmaa/EestiLipp-ASM (MIT)
 
 %define WIDTH   320
-%define CUT_HEIGHT  (200 / 3)
+%define HEIGHT  (200 / 3)
 
 start:
     ; Set VGA Mode 13h (320x200x256)
@@ -16,19 +16,19 @@ start:
     xor di, di
 
     mov al, 1              ; Blue / Sinine
-    mov cx, WIDTH * CUT_HEIGHT
+    mov cx, WIDTH * HEIGHT
 .top:
     stosb
     loop .top
 
     mov al, 0              ; Black / Must
-    mov cx, WIDTH * CUT_HEIGHT
+    mov cx, WIDTH * HEIGHT
 .middle:
     stosb
     loop .middle
 
     mov al, 15             ; White / Valge
-    mov cx, WIDTH * (CUT_HEIGHT + 2)
+    mov cx, WIDTH * (HEIGHT + 2)
 .bottom:
     stosb
     loop .bottom
