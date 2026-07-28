@@ -12,6 +12,12 @@ Ekraanpilt:
 nasm -f bin ESTLIPP.ASM -o ESTLIPP.COM
 ```
 
+## Demoprogramm
+
+Video seletus: <https://www.youtube.com/watch?v=cUCjYOy1HTk>
+
+Internet Archive: <https://archive.org/details/estlipp-dosasm>
+
 ## Funktsioonid
 
 - Kasutab NASM 16-baiti x86 programmi

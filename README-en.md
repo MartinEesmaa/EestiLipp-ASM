@@ -12,6 +12,12 @@ Screenshot:
 nasm -f bin ESTLIPP.ASM -o ESTLIPP.COM
 ```
 
+## Demo program
+
+Video explanation: <https://www.youtube.com/watch?v=cUCjYOy1HTk>
+
+Internet Archive: <https://archive.org/details/estlipp-dosasm>
+
 ## Functions
 
 - Uses NASM 16-bit x86 program
